@@ -126,11 +126,28 @@ p{
   padding: 10% 20%;
 }
 
-.photo-gallery{
+.photo-gallery {
   margin-bottom: 5%;
 font-family: "Montserrat";
-}
 
+}
+.container{
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("FC_20211102_0138.jpg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center center;
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
 .video-gallery{
   margin-top: 5%;
   margin-bottom: 5%;
